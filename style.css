@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+  color: gray;
+}
+a:hover {
+  color: white;
+}
+nav {
+  background-color: black;
+  color: white;
+  padding: 35px;
+}
+
+h1,
+ul,
+li {
+  display: inline-block;
+}
+
+ul {
+  margin-left: 50%;
+  color: gray;
+}
+
+li {
+  text-decoration: none;
+  margin-inline: 25px;
+  font-size: 20px;
+}
+li:hover,
+li:focus {
+  color: white;
+  cursor: pointer;
+  text-decoration: underline;
+}
+input {
+  padding: 10px;
+  width: 40%;
+}
+.btn {
+  width: 100px;
+  height: 35px;
+  margin: 5px;
+  background-color: rgb(210, 209, 209);
+  cursor: pointer;
+  border: 0;
+
+  box-shadow: 5px 5px 5px #333;
+}
+.btn:hover,
+.btn:focus {
+  background-color: gray;
+  color: aliceblue;
+  border: 50px;
+}
+input:hover,
+input:focus {
+  border-color: blue;
+  border-width: 2px;
+}
+.searchbar {
+  padding: 50px;
+  text-align: center;
+}
+.box {
+  display: inline-block;
+  border: solid 2px;
+
+  margin: 10px;
+  width: 220px;
+  padding: 10px;
+  cursor: pointer;
+}
+.box:hover {
+  transform: scale(105%);
+  transition-timing-function: linear;
+  transition-duration: 0.2s;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+.products {
+  text-align: center;
+}
+
+.buybtn {
+  background-color: rgb(210, 209, 209);
+
+  margin-top: 5px;
+  width: 50px;
+}
+.buybtn:hover {
+  background-color: gray;
+  color: aliceblue;
+  width: 60px;
+}
+input,
+button {
+  font: inherit;
+}
+.about {
+  text-align: center;
+  padding: 30px;
+}
+.contact {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+img {
+  width: 220px;
+  height: 220px;
+}
